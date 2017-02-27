@@ -1,0 +1,8 @@
+The loop invariant of this version of the max function is that ret is the
+maximum value of all the elements of the array traversed by the loop so
+far. If this invariant holds, we can say that ret at the end of the loop
+will be the maximum value of all the elements in the array, and the max
+function will be correct. The max function enforces this loop invariant
+properly, as if the next element of the array is greater than the max
+"so-far," than it will become the new max in the conditional. This implies
+that the code for max will correctly produce the maximum value of the array.
