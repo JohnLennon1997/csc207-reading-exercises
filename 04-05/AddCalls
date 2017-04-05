@@ -1,0 +1,24 @@
+a) BinarySearchTree tree1 = new BinarySearchTree();
+tree1.add(5);
+tree1.add(2);
+tree1.add(8);
+tree1.add(1);
+tree1.add(4);
+tree1.add(6);
+tree1.add(9);
+
+b) BinarySearchTree tree2 = new BinarySearchTree();
+tree2.add(4);
+tree2.add(2);
+tree2.add(9);
+tree2.add(6);
+tree2.add(15);
+tree2.add(5);
+tree2.add(20);
+
+c) BinarySearchTree tree3 = new BinarySearchTree();
+tree3.add(9);
+tree3.add(6);
+tree3.add(5);
+tree3.add(2);
+tree3.add(1);
